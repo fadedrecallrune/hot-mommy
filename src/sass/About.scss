@@ -1,0 +1,135 @@
+.about {
+    background-color: #f7f7f7;
+    padding: 30rem 0;
+    margin-top: -20vh;
+  }
+  
+  .heading-secondary {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: -5rem;
+  
+  
+    background-image: linear-gradient(to right, #ff6a00bb, #ee0978c9);
+    -webkit-background-clip: text;
+    color: transparent;
+  
+    @media (max-width: 600px) {
+      font-size: 3.5rem;
+      margin-bottom: -11rem;
+    }
+  }
+  
+  .infoCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3.5rem;
+  }
+  
+  .card {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 43rem;
+    width: 37rem;
+    margin-top: 8rem;
+    margin-right: 0.9rem;
+  
+    display: flex;
+    flex-direction: column;
+  
+  
+    @media (max-width: 600px) {
+      width: 36rem;
+      height: 34rem;
+      margin: 13.5rem -2.5rem -2.5rem -2.5rem;
+    }
+  
+    &__side {
+      color: #fff;
+      font-size: 2rem;
+  
+      height: 43rem;
+      width: 100%;
+      transition: all 0.8s ease;
+  
+      position: absolute;
+      top: 0;
+      left: 0;
+      backface-visibility: hidden;
+  
+      border-radius: 1rem 1rem 1rem 1rem;
+      box-shadow: 0 1.9rem 4rem rgba(black, 0.25);
+      @media (max-width: 600px) {
+        height: 34rem;
+      }
+  
+      &--front {
+        display: flex;
+        flex-direction: column;
+        height: 43rem;
+        border-radius: 1rem;
+        background-image: linear-gradient(to right, #ff6a00bb, #ee0978c9);
+  
+  
+        .card__image {
+          height: 35rem;
+          border-radius: 1rem 1rem 0 0;
+        }
+        .card-details {
+          width: 100%;
+          height: 15rem;
+          
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .card-name {
+          display: flex;
+          justify-content: center;
+          color: #fff;
+          font-size: 1.65rem;
+        }
+        .card-price {
+          display: flex;
+          justify-content: flex-end;
+          font-weight: 700;
+          color: #fff;
+        }
+      }
+  
+      &--back {
+        background-image: linear-gradient(to right bottom, #ee097888, #ff6a007e);
+        transform: rotateY(180deg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #fff;
+        height: 43rem;
+        .card-intro {
+          font-size: 1.5rem;
+          margin: 0 2rem 5rem 2rem;
+        }
+        .card-info {
+          font-size: 1.5rem;
+          margin: 2rem;
+          display: flex;
+          flex-direction: column;
+          font-weight: 700;
+        }
+      }
+    }
+    &:hover &__side--front {
+      transform: rotateY(180deg);
+    }
+    &:hover &__side--back {
+      transform: rotateY(0);
+    }
+  }
+  

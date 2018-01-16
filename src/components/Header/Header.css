@@ -1,0 +1,123 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, #ee0978c0, #ff6a00c2),
+      url(../../assets/card-img/a3.jpg);
+    background-size: cover;
+    background-position: top;
+  
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  }
+  
+  @media (max-width: 600px) {
+    .header {
+      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    }
+  }
+  
+  .heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .heading-primary--main {
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 1.5rem;
+    position: relative;
+    animation: moveInLeft 3s;
+    left: -5rem;
+  }
+  .heading-primary--main-hot {
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 1.5rem;
+    animation: moveInLeft 3s;
+    left: -5rem;
+    position: relative;
+    margin-bottom: -3rem;
+  }
+  
+  @media(max-width:900px){
+    .heading-primary--main-hot{
+      left: -1rem;
+    }
+    .heading-primary--main{
+      left: -1rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .heading-primary--main {
+      font-size: 5rem;
+      letter-spacing: 0.5rem;
+      left: -1.5rem;
+    }
+    .heading-primary--main-hot {
+      font-size: 5rem;
+      letter-spacing: 0.5rem;
+      left: -1.5rem;
+      margin-bottom: 0rem;
+    }
+  }
+  .heading-primary--sub {
+    position: relative;
+    left: 2.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    letter-spacing: 0.8rem;
+    animation: moveInRight 3s;
+  }
+  
+  @media (max-width: 600px) {
+    .heading-primary--sub {
+      position: relative;
+      left: -1rem;
+      margin-top: 3rem;
+      letter-spacing: 0rem;
+      font-weight: 400;
+    }
+  }
+  
+  .header__text-box {
+    position: absolute;
+    top: 45%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-10rem);
+    }
+    80% {
+      transform: translateX(1.5rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(10rem);
+    }
+    80% {
+      transform: translateX(-1.5rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  
