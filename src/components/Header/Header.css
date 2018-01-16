@@ -18,7 +18,7 @@
     color: #fff;
     text-transform: uppercase;
     backface-visibility: hidden;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,6 +33,7 @@
     position: relative;
     animation: moveInLeft 3s;
     left: -5rem;
+    margin-bottom: 1rem;
   }
   .heading-primary--main-hot {
     font-size: 6rem;
@@ -68,8 +69,8 @@
   }
   .heading-primary--sub {
     position: relative;
-    left: 2.5rem;
-    font-size: 1.6rem;
+    left: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-top: 1rem;
     letter-spacing: 0.8rem;
@@ -79,10 +80,11 @@
   @media (max-width: 600px) {
     .heading-primary--sub {
       position: relative;
-      left: -1rem;
-      margin-top: 3rem;
-      letter-spacing: 0rem;
-      font-weight: 400;
+      left: -0.3rem;
+      margin-top: 1rem;
+      font-size: 1.4rem;
+      letter-spacing: 0.5rem;
+      font-weight: 100;
     }
   }
   
