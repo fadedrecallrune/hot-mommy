@@ -9,7 +9,7 @@ const LoveText = () => {
     <div className="love-text-container">
     <Fade bottom>
     
-      <h1 className='heading-secondary' >Наше качество </h1>
+      <h1 className='love-heading' >Наше качество </h1>
       </Fade>
     <Fade bottom>
       

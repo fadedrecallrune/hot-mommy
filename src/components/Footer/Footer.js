@@ -8,17 +8,17 @@ import Tada from "react-reveal/Tada";
 const Footer = () => (
   <div className="section-features">
     <hr className="footer-hr" />
-    <Tada count={2}>
+    {/* <Tada count={2}> */}
       <div className="footer-phone">
         <a style={{textDecoration:'none', color: 'black'}} href="tel:0971580809">
           <i className="fas  fa-phone fa-lg" /> (097) 158-08-09
         </a>
       </div>
-    </Tada>
+    {/* </Tada> */}
     <div className="flex-row contacts-section">
       <img src={logo} alt="logo" className="contact-logo" />
 
-      <div className="flex-row">
+      {/* <div className="flex-row">
         <div>
           <a
             className="footer-icon"
@@ -37,7 +37,7 @@ const Footer = () => (
             <i className="fab fa-instagram fa-lg" />
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   </div>
 );
