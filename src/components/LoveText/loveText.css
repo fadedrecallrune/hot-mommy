@@ -1,0 +1,64 @@
+.section-lovetext {
+    padding: 1rem 0;
+    /* height: 35rem; */
+    /* background-image: linear-gradient(to right bottom, #ee0978c0, #ff6a00c2),
+      url(../../assets/card-img/a3.jpg);
+      background-size: cover;
+    background-position: top; */
+    background-color: #f7f7f7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: skewY(-5deg) */
+}
+
+
+
+.love-text-container {
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 80rem;
+align-content: center;
+position: relative;
+/* transform: skewY(5deg) */
+}
+
+.love-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    position: relative;
+    left: 3rem;
+    margin: 1rem;
+}
+
+@media(max-width: 600px){
+    .love-text{
+        font-size: 1.5rem;
+        margin: 2rem;
+        width: 47%;
+        left: 19.5rem;
+    }
+}
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%;
+    margin-top: 3.5rem;
+    
+}
+@media(max-width: 600px){
+    .player-wrapper {
+        position: relative;
+        padding-top: 28%
+    }
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}

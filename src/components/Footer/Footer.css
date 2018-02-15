@@ -1,0 +1,113 @@
+.section-features {
+  padding-top: 10rem;
+  background-color: #f7f7f7;
+  margin-top: -6vh;
+  height: 19.7rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 600px){
+  .section-features {
+    background-color: #f7f7f7;
+    margin-top: -6vh;
+    height: 19.7rem;
+    padding-top: 0;
+  }
+}
+
+.contacts-section {
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: black;
+  width: 65%;
+  position: relative;
+  left: 21rem;
+}
+@media (max-width: 600px) {
+  .contacts-section {
+    font-weight: 500;
+    font-size: 1rem;
+    left: 11rem;
+  }
+}
+
+.footer-phone {
+  position: absolute;
+  font-size: 2.5rem;
+  left: 56rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 600px){
+  .footer-phone {
+    position: relative;
+    left: 7.6rem;
+    top: 0rem;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
+.footer-hr {
+  width: 78%;
+  position: relative;
+  left: 11rem;
+  margin: 2rem;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+@media(max-width: 600px){
+  .footer-hr{
+    height: 2px;
+    left: 1rem;
+    top: 2rem;
+    margin: 2rem;
+  }
+}
+
+.contact-logo {
+  width: 30%;
+  position: relative;
+  left: -2rem;
+  top: -2.5rem;
+  margin-left: 4rem;
+}
+
+@media(max-width:600px){
+  .contact-logo {
+    width: 80%;
+    position: relative;
+    left: -12rem;
+    top: 0rem;
+    margin-left: 4rem;
+  }
+}
+
+.footer-icon {
+  color: black;
+  text-decoration: none;
+  margin-left: 1rem;
+  position: relative;
+  left: -4rem;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 600px){
+  .footer-icon {
+    color: black;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 2.6rem;
+    position: relative;
+    top: 1.8rem;
+    left: -10rem;
+  }
+}

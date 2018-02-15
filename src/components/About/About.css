@@ -1,25 +1,53 @@
 .about {
   background-color: #f7f7f7;
-  padding: 30rem 0;
-  margin-top: -20vh;
+  padding-top: 20rem;
+  margin-top: -25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .heading-secondary {
   display: flex;
   justify-content: center;
-  font-size: 5rem;
+  font-size: 4rem;
   text-transform: uppercase;
   font-weight: 700;
-  margin-top: -5rem;
+  margin-top: 3rem;
   background-image: linear-gradient(to right, #ff6a00bb, #ee0978c9);
   -webkit-background-clip: text;
   color: transparent;
+  width: 80rem;
+  position: relative;
 }
 @media (max-width: 600px) {
   .heading-secondary {
-    font-size: 3.5rem;
-    /* margin-bottom: -8rem; */
-    margin-top: 2rem;
+    font-size: 2.8rem;
+    margin-top: 5rem;
+  }
+}
+.about-info {
+  position: relative;
+  left: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 79%;
+  margin-top: 1rem;
+}
+
+.about-info-text {
+  position: relative;
+  width: 70%;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 600px) {
+  .about-info-text {
+    width: 100%;
+    font-size: 1.5rem;
+    left: -2rem;
+    margin-bottom: -10rem;
   }
 }
 
@@ -29,29 +57,36 @@
   justify-content: center;
   margin: 3.5rem;
 }
+@media(max-width: 600px){
+  .infoCard{
+    margin: 12.5rem 0 0 0;
+  }
+}
 
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 43rem;
-  width: 37rem;
-  margin-top: 8rem;
+  height: 38rem;
+  width: 28.5rem;
+  margin-top: 1.5rem;
   margin-right: 0.9rem;
   display: flex;
   flex-direction: column;
 }
 @media (max-width: 600px) {
   .card {
-    width: 36rem;
-    height: 34rem;
-    margin: 13.5rem -2.5rem -2.5rem -2.5rem;
+    width: 18.4rem;
+    height: 25rem;
+    margin: 0.19rem;
+    margin-top: 0.5rem;
+    /* margin-right: -2.5rem; */
   }
 }
 .card__side {
   color: #fff;
   font-size: 2rem;
-  height: 43rem;
+  height: 38rem;
   width: 100%;
   transition: all 0.8s ease;
   position: absolute;
@@ -63,40 +98,74 @@
 }
 @media (max-width: 600px) {
   .card__side {
-    height: 34rem;
+    height: 25rem;
+    width: 18.4rem;
   }
 }
 .card__side--front {
   display: flex;
   flex-direction: column;
-  height: 43rem;
+  height: 35.5rem;
   border-radius: 1rem;
   background-image: linear-gradient(to right, #ff6a00bb, #ee0978c9);
 }
-.card__side--front .card__image {
-  height: 35rem;
-  border-radius: 1rem 1rem 0 0;
+
+@media(max-width: 600px){
+  .card__side--front{
+    height: 25rem;
+    width: 18.4rem;
+  }
 }
+.card__side--front .card__image {
+  height: 30rem;
+  border-radius: 1rem 1rem 0 0;
+  width: 28.5rem;
+}
+
+@media(max-width: 600px){
+  .card__side--front .card__image {
+    height: 20rem;
+    width: 18.4rem;
+  }
+}
+
 .card__side--front .card-details {
   width: 100%;
-  height: 15rem;
+  height: 16rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+@media(max-width: 600px){
+  .card__side--front .card-details{
+    width:18.4rem;
+    height: 4rem;
+  }
+}
+
 .card__side--front .card-name {
   display: flex;
   justify-content: center;
   color: #fff;
-  font-size: 1.65rem;
+  font-size: 1.35rem;
 }
+
+@media(max-width: 600px){
+  .card__side--front .card-name{
+    font-size: 1.2rem;
+  }
+}
+
 .card__side--front .card-price {
   display: flex;
   justify-content: flex-end;
   font-weight: 700;
   color: #fff;
 }
+
+/* CARD BACK */
+
 .card__side--back {
   background-image: linear-gradient(to right bottom, #ee097888, #ff6a007e);
   transform: rotateY(180deg);
@@ -105,10 +174,10 @@
   justify-content: center;
   align-items: flex-start;
   background-color: #fff;
-  height: 43rem;
+  height: 35.5rem;
 }
 .card__side--back .card-intro {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 0 2rem 5rem 2rem;
 }
 .card__side--back .card-info {

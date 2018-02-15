@@ -8,6 +8,7 @@ import "animate.css/animate.min.css";
 
 import items from "./assets/data";
 import rootReducer from './reducers'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 const store = createStore(rootReducer, {
   items: items
@@ -15,7 +16,11 @@ const store = createStore(rootReducer, {
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+  <Router>
+    <Switch>
+    <Route exact path='/' component={App} />
+    </Switch>
+    </Router>
   </Provider>,
   document.getElementById("root")
 );

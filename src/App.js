@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 import Header from './components/Header'
 import About from './containers/About';
-import Contacts from './components/Contacts';
+import Footer from './components/Footer';
+import LoveText from './components/LoveText/LoveText';
 
 
 class App extends Component {
@@ -11,7 +12,8 @@ class App extends Component {
       <div>
         <Header />
         <About />
-        <Contacts />
+        <LoveText />
+        <Footer />
       </div>
     );
   }

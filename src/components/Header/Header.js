@@ -1,16 +1,23 @@
 import React from "react";
 import "./Header.css";
+import logo from "../../assets/smallwhiteha.svg";
 
 const Header = () => (
   <header className="header">
+    <div className="flex-row logo-container">
+      <img src={logo} alt="logo" className="logo" />
+      <div className="social-icon">
+        <i className="fas  fa-phone fa-lg" /> (097) 158-08-09
+      </div>
+    </div>
+
     <div className="header__text-box">
-      <h1 className="heading-primary">
-        <span className="heading-primary--main-hot">Hot</span>
-        <span className="heading-primary--main">Mommy</span>
-        
-        <span className="heading-primary--sub">
-          Dolorum ea qui commodi totam cupiditate ratione fugit.
-        </span>
+      <h1 className="flex-col heading-primary">
+        <span className="heading-primary--main">Hot Mommy</span>
+
+        <p className="heading-primary--sub">
+          Улыбнитесь, счастье Вам к лицу...
+        </p>
       </h1>
     </div>
   </header>
