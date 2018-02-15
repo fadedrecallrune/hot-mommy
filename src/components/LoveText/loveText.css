@@ -49,12 +49,15 @@ position: relative;
 }
 
 .love-text {
+    display: flex;
+    justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     position: relative;
-    left: 3rem;
     margin: 1rem;
+    width: 70%;
+    left: 14rem;
 }
 
 @media(max-width: 600px){
@@ -76,7 +79,6 @@ position: relative;
     .player-wrapper {
         position: relative;
         padding-top: 56.25%;
-        width: 100%;
         /* left: 21rem; */
 
     }

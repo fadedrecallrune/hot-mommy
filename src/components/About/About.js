@@ -21,9 +21,10 @@ const About = ({ items }) => {
           </p>
         </div>
       </Fade>
-
       <div className="infoCard">
         {items.map(item => (
+      <Fade>
+          
             <div key={item.id} className="card">
               <div className="card__side card__side--front">
                 <img src={item.pic} alt="" className="card__image" />
@@ -43,8 +44,10 @@ const About = ({ items }) => {
                 </div>
               </div>
             </div>
+            </Fade>
         ))}
       </div>
+      
     </section>
   );
 };
