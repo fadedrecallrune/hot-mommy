@@ -7,7 +7,12 @@ const Header = () => (
     <div className="flex-row logo-container">
       <img src={logo} alt="logo" className="logo" />
       <div className="social-icon">
+      <a
+          style={{textDecoration:'none', color: 'white'}}
+          href="tel:0971580809"
+        >
         <i className="fas  fa-phone fa-lg" /> (097) 158-08-09
+        </a>
       </div>
     </div>
 

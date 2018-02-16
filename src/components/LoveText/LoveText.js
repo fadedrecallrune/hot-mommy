@@ -7,11 +7,11 @@ const LoveText = () => {
   return (
       <section className='section-lovetext'>
     <div className="love-text-container">
-    <Fade bottom>
+    <Fade delay={300} bottom>
     
       <h1 className='love-heading' >Наше качество </h1>
       </Fade>
-    <Fade bottom>
+    <Fade delay={450} bottom>
       
       <p className="love-text">
         Мастерская подарков Hot Mommy предлагает Вам Подарочные наборы для

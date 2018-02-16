@@ -6,10 +6,10 @@ import "./About.css";
 const About = ({ items }) => {
   return (
     <section className="about">
-      <Fade bottom>
+      <Fade bottom delay={300} >
         <h2 className="heading-secondary">Мастерская подарков</h2>
       </Fade>
-      <Fade bottom>
+      <Fade bottom delay={450} >
         <div className="about-info">
           <p className='about-info-text' >
             Мастерская подарков Hot Mommy предлагает Вам Подарочные наборы для
@@ -21,9 +21,9 @@ const About = ({ items }) => {
           </p>
         </div>
       </Fade>
-      <div className="infoCard">
+      <div  className="infoCard">
         {items.map(item => (
-      <Fade bottom >
+      <Fade bottom delay={100} >
             <div key={item.id} className="card">
               <div className="card__side card__side--front">
                 <img src={item.pic} alt="" className="card__image" />

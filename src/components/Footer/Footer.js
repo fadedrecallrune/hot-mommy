@@ -24,6 +24,7 @@ const Footer = () => (
           <a
             className="footer-icon"
             target="_blank"
+            rel="noopener noreferrer"
             href="https://www.facebook.com/HotMommyUa/"
           >
             <i className="fab fa-facebook fa-lg" />
@@ -33,6 +34,7 @@ const Footer = () => (
           <a
             className="footer-icon"
             target="_blank"
+            rel="noopener noreferrer"
             href="https://www.instagram.com/hotmommy_ua/"
           >
             <i className="fab fa-instagram fa-lg" />
