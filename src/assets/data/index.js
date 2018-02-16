@@ -2,30 +2,30 @@ import bo1 from "../card-img/bo1.jpg";
 
 // пледики 
 
-import z1 from '../card-img/z1.JPG'
-import z2 from '../card-img/z2.jpg'
-import z3 from '../card-img/z3.jpg'
+import z1 from '../card-img/z1.jpeg'
+import z2 from '../card-img/z2.jpeg'
+import z3 from '../card-img/z3.jpeg'
 
 // наборы 
 
-import n1 from '../card-img/n1.jpg'
-import n2 from '../card-img/n2.JPG'
-import n3 from '../card-img/n3.JPG'
-import n4 from '../card-img/n4.JPG'
+import n1 from '../card-img/n1.jpeg'
+import n2 from '../card-img/n2.jpeg'
+import n3 from '../card-img/n3.jpeg'
+import n4 from '../card-img/n4.jpeg'
 
 // термосы
 
-import t1 from '../card-img/t1.JPG'
-import t2 from '../card-img/t2.JPG'
-import t3 from '../card-img/t3.JPG'
-import t4 from '../card-img/t4.JPG'
+import t1 from '../card-img/t1.jpeg'
+import t2 from '../card-img/t2.jpeg'
+import t3 from '../card-img/t3.jpeg'
+import t4 from '../card-img/t4.jpeg'
 
 // термос плюс муфта 
 
-import p1 from '../card-img/p1.jpg'
-import p2 from '../card-img/p2.jpg'
-import p3 from '../card-img/p3.jpg'
-import p4 from '../card-img/p4.jpg'
+import p1 from '../card-img/p1.jpeg'
+import p2 from '../card-img/p2.jpeg'
+import p3 from '../card-img/p3.jpeg'
+import p4 from '../card-img/p4.jpeg'
 
 
 

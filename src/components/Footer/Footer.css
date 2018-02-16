@@ -1,112 +1,95 @@
 .section-features {
-  padding-top: 10rem;
   background-color: #f7f7f7;
-  margin-top: -6vh;
   height: 19.7rem;
-  display: flex;
   justify-content: center;
-  flex-direction: column;
-}
-
-@media (max-width: 600px){
-  .section-features {
-    background-color: #f7f7f7;
-    margin-top: -6vh;
-    height: 19.7rem;
-    padding-top: 0;
-  }
+  align-items: center;
 }
 
 .contacts-section {
   align-items: center;
   justify-content: space-between;
-  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1.3rem;
   color: black;
-  width: 65%;
-  position: relative;
-  left: 21rem;
-}
-@media (max-width: 600px) {
-  .contacts-section {
-    font-weight: 500;
-    font-size: 1rem;
-    left: 11rem;
-  }
+  width: 60%;
+  margin-left: -5rem;
 }
 
 .footer-phone {
-  /* position: absolute;
   font-size: 2.5rem;
-  left: 56rem;
-  margin-top: 1.5rem; */
-  display: flex;
+  left: 1rem;
   justify-content: center;
+  position: relative;
+  top: 4rem;
 }
-
-@media (max-width: 600px){
-  .footer-phone {
-    /* position: relative;
-    left: 7.6rem;
-    top: 0rem;
-    font-size: 2.4rem;
-    margin-bottom: 1rem; */
-    display: flex;
-    justify-content: center;
-    font-size: 2.4rem;
-    margin-top: 1.2rem;
-  }
-}
-
 
 .footer-hr {
   width: 78%;
-  position: relative;
-  left: 11rem;
-  margin: 2rem;
+  margin-top: 2rem;
   border: 0;
   height: 1px;
   background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 }
 
-@media(max-width: 600px){
-  .footer-hr{
-    height: 2px;
-    left: 1rem;
-    top: 2rem;
-    margin: 2rem;
-  }
-}
-
 .contact-logo {
-  width: 30%;
-  position: relative;
-  left: -2rem;
-  top: -2.5rem;
-  margin-left: 4rem;
-}
-
-@media(max-width:600px){
-  .contact-logo {
-    width: 80%;
-    position: relative;
-    left: -12rem;
-    top: 0rem;
-    margin-left: 4rem;
-  }
+  width: 35%;
+  margin-top: -5rem;
 }
 
 .footer-icon {
   color: black;
   text-decoration: none;
   margin-left: 1rem;
-  position: relative;
-  left: -4rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
-@media (max-width: 600px){
+
+
+/*
+/* MAX-WIDTH: 600px */
+
+@media (max-width: 600px) {
+  .section-features {
+    background-color: #f7f7f7;
+    margin-top: -3vh;
+    height: 19.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contacts-section {
+    font-size: 1rem;
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-phone {
+    justify-content: center;
+    font-size: 2.7rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.7rem;
+    position: unset;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-hr {
+    height: 2px;
+    left: 1rem;
+    top: 2rem;
+    margin: 2.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-logo {
+    width: 72%;
+    margin-top: 0rem;
+  }
+}
+
+@media (max-width: 600px) {
   .footer-icon {
     color: black;
     text-decoration: none;
@@ -114,6 +97,5 @@
     font-size: 2.6rem;
     position: relative;
     top: 1.8rem;
-    left: -10rem;
   }
 }

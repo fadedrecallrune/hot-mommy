@@ -23,8 +23,7 @@ const About = ({ items }) => {
       </Fade>
       <div className="infoCard">
         {items.map(item => (
-      <Fade>
-          
+      <Fade bottom >
             <div key={item.id} className="card">
               <div className="card__side card__side--front">
                 <img src={item.pic} alt="" className="card__image" />
