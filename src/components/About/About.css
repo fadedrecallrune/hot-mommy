@@ -192,7 +192,7 @@
 
 @media(max-width:600px){
   .card__side--back{
-    height: 25;
+    height: 25rem;
   }
 }
 
