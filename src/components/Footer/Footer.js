@@ -6,7 +6,7 @@ import Tada from "react-reveal/Tada";
 const Footer = () => (
   <div className=" flex-col section-features">
     <hr className="footer-hr" />
-    <Tada count={2}>
+    <Tada count={2} delay={1000} >
       <div className="flex-row footer-phone">
         <a
           style={{ textDecoration: "none", color: "black" }}
