@@ -42,6 +42,7 @@ position: relative;
     .love-heading {
         font-size: 2.8rem;
     margin-top: 5rem;
+    margin-left: -1rem;
     background-image: none;
   -webkit-background-clip: none;
   color: black;
