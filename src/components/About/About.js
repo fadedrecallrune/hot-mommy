@@ -6,24 +6,28 @@ import "./About.css";
 const About = ({ items }) => {
   return (
     <section className="about">
-      <Fade bottom delay={300} >
+      <Fade bottom>
         <h2 className="heading-secondary">Мастерская подарков</h2>
       </Fade>
-      <Fade bottom delay={450} >
+      <Fade bottom delay={450}>
         <div className="about-info">
-          <p className='about-info-text' >
-            Мастерская подарков Hot Mommy предлагает Вам Подарочные наборы для
-            малышей и их прекрасных мам. Наш подарочный набор это идеальный
-            подарок на рождение ребенка, на крестины малыша или просто подарок
-            даже без повода! Выбирайте готовые подарочные наборы от нашей
-            мастерской подарков, или создавайте Ваш идеальный подарок вместе с
-            нами!
+          <p className="about-info-text">
+            Хотите выбрать идеальный подарок на рождение ребенка, подарок на
+            крестины или просто хотите порадовать малыша? Тогда Вы по адресу! В
+            нашей мастерской Вы можете выбрать как готовый подарочный набор, так
+            и составить его самостоятельно, наполнив дизайнерский бокс от Hot
+            Mommy выбранной продукцией! В такой коробке приятно как дарить, так
+            и получать подарки!
+          </p>
+          <p className="about-info-text">
+            И перед тем, как приступите к выбору подарка, улыбнитесь, ведь
+            Счастье Вам к лицу!!!
           </p>
         </div>
       </Fade>
-      <div  className="infoCard">
+      <div className="infoCard">
         {items.map(item => (
-      <Fade bottom delay={100} >
+          <Fade bottom delay={100}>
             <div key={item.id} className="card">
               <div className="card__side card__side--front">
                 <img src={item.pic} alt="" className="card__image" />
@@ -43,10 +47,9 @@ const About = ({ items }) => {
                 </div>
               </div>
             </div>
-            </Fade>
+          </Fade>
         ))}
       </div>
-      
     </section>
   );
 };

@@ -8,6 +8,12 @@
   align-items: center;
 }
 
+@media(max-width: 600px){
+  .about {
+    margin-top: -47vh;
+  }
+}
+
 .heading-secondary {
   display: flex;
   justify-content: center;
@@ -23,7 +29,7 @@
 @media (max-width: 600px) {
   .heading-secondary {
     font-size: 2.8rem;
-    margin-top: 15rem;
+    margin-top: -1rem;
     background-image: none;
     -webkit-background-clip: none;
     color: black;
@@ -38,11 +44,12 @@
 }
 .about-info {
   position: relative;
-  left: 2rem;
+  /* margin-left: 28rem; */
   display: flex;
   justify-content: center;
-  width: 79%;
+  width: 82%;
   margin-top: 1rem;
+  flex-direction: column;
 }
 
 .about-info-text {
@@ -50,15 +57,17 @@
   width: 70%;
   font-size: 1.4rem;
   margin-bottom: 3rem;
+  margin-left: 17.5rem;
 }
 
 @media (max-width: 600px) {
   .about-info-text {
     width: 100%;
     font-size: 1.5rem;
-    left: -2rem;
-    margin-bottom: -7rem;
+    /* margin-bottom: -7rem; */
     margin-top: 2rem;
+    margin-left: 0rem;
+
   }
 }
 

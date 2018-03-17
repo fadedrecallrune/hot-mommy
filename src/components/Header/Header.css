@@ -9,7 +9,7 @@
 
 @media (max-width: 600px) {
   .header {
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 49vh, 0 60%);
   }
 }
 
@@ -26,6 +26,12 @@
   align-items: center;
   margin-top: 7rem;
   color: #fff;
+}
+
+@media(max-width: 600px){
+  .heading-primary {
+    margin-top: -12rem;
+  }
 }
 
 .heading-primary--main {

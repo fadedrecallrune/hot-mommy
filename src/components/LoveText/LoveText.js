@@ -1,30 +1,38 @@
 import React from "react";
-import ReactPlayer from 'react-player'
+import ReactPlayer from "react-player";
 import Fade from "react-reveal/Fade";
 import "./loveText.css";
 
 const LoveText = () => {
   return (
-      <section className='section-lovetext'>
-    <div className="love-text-container">
-    <Fade delay={300} bottom>
-    
-      <h1 className='love-heading' >Наше качество </h1>
-      </Fade>
-    <Fade delay={450} bottom>
-      
-      <p className="love-text">
-        Мастерская подарков Hot Mommy предлагает Вам Подарочные наборы для
-        малышей и их прекрасных мам. Наш подарочный набор это идеальный подарок
-        на рождение ребенка, на крестины малыша или просто подарок даже без
-        повода! Выбирайте готовые подарочные наборы от нашей мастерской
-        подарков, или создавайте Ваш идеальный подарок вместе с нами!
-      </p>
-      </Fade>
-      <div className='player-wrapper'>
-      <ReactPlayer className='video' width='100%' height='100%' url='https://vimeo.com/73314057' volume={0.2} />
+    <section className="section-lovetext">
+      <div className="love-text-container">
+        <Fade delay={300} bottom>
+          <h1 className="love-heading">Наше качество </h1>
+        </Fade>
+        <Fade delay={450} bottom>
+          <div>
+          <h2>Способы оплаты и доставки заказа</h2>
+          <p>
+            Вы можете купить подарочный набор Hot Mommy позвонив по телефону
+            (097) 158 08 09. Мы с радостью поможем Вам в выборе подарка и
+            предоставим всю интересующую информацию.{" "}
+          </p>
+          <br />
+          <p>
+            Доставка возможна курьером в любую точку города Киева с 9:00 до
+            21:00. Стоимость доставки - 50 грн. Оплата товара осуществляется
+            наличным (курьеру) или безналичным расчетом (на карту Приватбанка).{" "}
+          </p>
+          <br />
+          <p>
+            По Украине Вы можете получить заказ Новой почтой. Стоимость доставки
+            по ценам курьерской службы. Оплата товара осуществляется безналичным
+            расчетом (на карту Приватбанка) или наложенным платежом.
+          </p>
+          </div>
+        </Fade>
       </div>
-    </div>
     </section>
   );
 };
