@@ -231,6 +231,11 @@
     height: 25rem;
   }
 }
+@media(max-width:320px){
+  .card__side--back {
+    height: 32rem;
+  }
+}
 
 .card__side--back .card-intro {
   font-size: 1.2rem;
