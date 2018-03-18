@@ -81,6 +81,13 @@
     font-weight: 300;
   }
 }
+@media(max-width:360px){
+  .heading-primary--sub {
+    font-size: 1.25rem;
+    margin-left: 3rem;
+    width: 28rem;
+  }
+}
 
 @media(max-width:320px){
   .heading-primary--sub {
@@ -146,8 +153,9 @@
 
 @media(max-width:360px){
   .logo {
+    width: 9rem;
     margin-left: -0.5rem;
-    margin-top: 6rem;
+    margin-top: 7rem;
   }
 }
 
