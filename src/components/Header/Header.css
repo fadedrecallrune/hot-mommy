@@ -30,7 +30,7 @@
 
 @media (max-width: 600px) {
   .heading-primary {
-    margin-top: -12rem;
+    margin-top: -10rem;
     margin-left: 2rem;
   }
 }
@@ -56,7 +56,6 @@
     font-size: 4.8rem;
     letter-spacing: 0.5rem;
     left: 0rem;
-    background-color: magenta;
 
   }
 }
@@ -79,7 +78,6 @@
     margin-top: 1rem;
     font-size: 1.3rem;
     /* letter-spacing: 0.5rem; */
-    background-color: lime;
     font-weight: 300;
   }
 }
@@ -134,8 +132,7 @@
   .logo {
     width: 9rem;
     margin-left: 0rem;
-    margin-top: 12.7rem;
-    background-color: green;
+    margin-top: 10rem;
   }
 }
 
