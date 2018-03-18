@@ -8,11 +8,10 @@ const LoveText = () => {
     <section className="section-lovetext">
       <div className="love-text-container">
         <Fade delay={300} bottom>
-          <h1 className="love-heading">Наше качество </h1>
+          <p className="love-heading">Способы оплаты и доставки заказа</p>
         </Fade>
         <Fade delay={450} bottom>
-          <div>
-          <h2>Способы оплаты и доставки заказа</h2>
+          <div style={{marginTop:'20px'}} >
           <p>
             Вы можете купить подарочный набор Hot Mommy позвонив по телефону
             (097) 158 08 09. Мы с радостью поможем Вам в выборе подарка и

@@ -39,7 +39,7 @@
   font-family: DancingScript;
   font-size: 9rem;
   position: relative;
-  animation: moveInLeft 3s;
+  animation: moveInRight 3s;
   left: -5rem;
 }
 
@@ -67,7 +67,7 @@
   font-size: 1.8rem;
   font-weight: 300;
   margin-top: -2rem;
-  animation: moveInRight 3s;
+  animation: moveInLeft 3s;
 }
 
 @media (max-width: 600px) {
@@ -131,8 +131,8 @@
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .logo {
     width: 9rem;
-    margin-left: 0rem;
-    margin-top: 7.5rem;
+    margin-left: 1rem;
+    margin-top: 7rem;
   }
 }
 
