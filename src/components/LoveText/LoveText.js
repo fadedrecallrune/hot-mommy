@@ -8,7 +8,7 @@ const LoveText = () => {
     <section className="section-lovetext">
       <div className="love-text-container">
         <Fade delay={300} bottom>
-          <p className="love-heading">Способы оплаты и доставки заказа</p>
+          <p className="love-heading">оплата и доставка</p>
         </Fade>
         <Fade delay={450} bottom>
           <div style={{marginTop:'20px'}} >
