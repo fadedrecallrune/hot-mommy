@@ -85,7 +85,7 @@
   .heading-primary--sub {
     font-size: 1.25rem;
     margin-left: 3rem;
-    width: 28rem;
+    width: 26rem;
   }
 }
 
@@ -154,8 +154,8 @@
 @media(max-width:360px){
   .logo {
     width: 9rem;
-    margin-left: -0.5rem;
-    margin-top: 7rem;
+    /* margin-left: -0.5rem; */
+    margin-top: 7.7rem;
   }
 }
 
