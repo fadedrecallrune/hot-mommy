@@ -144,6 +144,13 @@
   }
 }
 
+@media(max-width:360px){
+  .logo {
+    margin-left: -0.5rem;
+    margin-top: 6rem;
+  }
+}
+
 @media(max-width: 320px){
   .logo{
     width: 9rem;

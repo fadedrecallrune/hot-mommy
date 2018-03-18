@@ -49,7 +49,7 @@ position: relative;
     }
 }
 
-@media(max-width: 320px){
+@media(max-width: 360px){
     .love-heading {
         font-size: 2.2rem;
     }
