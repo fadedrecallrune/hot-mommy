@@ -27,11 +27,11 @@ const About = ({ items }) => {
       </Fade>
       <div className="infoCard">
         {items.map(item => (
-          <Fade bottom delay={100}>
+          <Fade key={item.id} bottom delay={100}>
             <div key={item.id} className="card">
-              <div className="card__side card__side--front">
+              <div className="card__side flex-col card__side--front">
                 <img src={item.pic} alt="" className="card__image" />
-                <div className=" card-details">
+                <div className="flex-col card-details">
                   <div className="card-name">
                     <span>{item.name}</span>
                   </div>
@@ -40,7 +40,7 @@ const About = ({ items }) => {
                   </div>
                 </div>
               </div>
-              <div className="card__side card__side--back">
+              <div className="card__side flex-col card__side--back">
                 <div className="card-intro">{item.disc}</div>
                 <div className="card-info">
                   <span>{item.contains}</span>

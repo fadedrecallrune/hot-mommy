@@ -1,5 +1,4 @@
 import React from "react";
-import ReactPlayer from "react-player";
 import Fade from "react-reveal/Fade";
 import "./loveText.css";
 
@@ -11,7 +10,7 @@ const LoveText = () => {
           <p className="love-heading">оплата и доставка</p>
         </Fade>
         <Fade delay={450} bottom>
-          <div style={{marginTop:'20px'}} >
+          <div className='love-text' >
           <p>
             Вы можете купить подарочный набор Hot Mommy позвонив по телефону
             (097) 158 08 09. Мы с радостью поможем Вам в выборе подарка и

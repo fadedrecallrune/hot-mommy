@@ -1,17 +1,4 @@
-import bo1 from "../card-img/bo1.jpg";
-
-import t1 from '../card-img/t1.jpeg'
-import t2 from '../card-img/t2.jpeg'
-import t3 from '../card-img/t3.jpeg'
-import t4 from '../card-img/t4.jpeg'
-
-// термос плюс муфта 
-
-import p1 from '../card-img/p1.jpeg'
-import p2 from '../card-img/p2.jpeg'
-import p3 from '../card-img/p3.jpeg'
-import p4 from '../card-img/p4.jpeg';
-
+import bo1 from '../card-img/bo1.jpg'
 
 import vanil from '../card-img/2vanil.jpg';
 import zefir from '../card-img/4_zefir.jpg'
@@ -29,7 +16,7 @@ import sugar from '../card-img/1_sugar.jpg'
 import grey from '../card-img/3_grey.jpg'
 import sochnaya from '../card-img/7_sochnaya.jpg'
 import korobka from '../card-img/5_korobka.jpg'
-import termos from '../card-img/17_termos.jpg'
+// import termos from '../card-img/17_termos.jpg'
 
 
 
@@ -202,7 +189,7 @@ const items = [
   },
   {
     id: 17,
-    pic: termos,
+    pic: bo1,
     name: `Термос`,
     price: "420 грн",
     disc:
