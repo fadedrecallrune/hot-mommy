@@ -189,14 +189,14 @@
 }
 @media(max-width:900px){
   .social-icon {
-    margin-top: 3rem;
+    margin-top: 3.3rem;
   }
 }
 
 @media (max-width: 600px) {
   .social-icon {
     font-size: 1.8rem;
-    margin-top: 3.8rem;
+    margin-top: 3.2rem;
     margin-right: 2rem;
   }
 }
