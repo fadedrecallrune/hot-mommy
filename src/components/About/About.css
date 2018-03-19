@@ -7,7 +7,11 @@
   justify-content: center;
   align-items: center;
 }
-
+@media(max-width: 900px){
+  .about {
+    margin-top: -35vh;
+  }
+}
 @media(max-width: 600px){
   .about {
     margin-top: -47vh;

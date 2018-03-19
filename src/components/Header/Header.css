@@ -7,6 +7,11 @@
   clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
 }
 
+@media (max-width: 900px) {
+  .header {
+    clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 75%);
+  }
+}
 @media (max-width: 600px) {
   .header {
     clip-path: polygon(0 0, 100% 0, 100% 49vh, 0 60%);
@@ -28,6 +33,11 @@
   align-items: center;
   margin-top: 7rem;
   color: #fff;
+}
+@media (max-width: 900px) {
+  .heading-primary {
+    margin-top: -7rem;
+  }
 }
 
 @media (max-width: 600px) {

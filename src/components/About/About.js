@@ -9,7 +9,7 @@ const About = ({ items }) => {
       <Fade bottom>
         <h2 className="heading-secondary">Мастерская подарков</h2>
       </Fade>
-      <Fade bottom delay={450}>
+      <Fade bottom >
         <div className="about-info">
           <p className="about-info-text">
             Хотите выбрать идеальный подарок на рождение ребенка, подарок на
