@@ -9,7 +9,7 @@ const LoveText = () => {
         <Fade delay={300} bottom>
           <p className="love-heading">оплата и доставка</p>
         </Fade>
-        <Fade delay={450} bottom>
+        <Fade delay={380} bottom>
           <div className='love-text' >
           <p>
             Вы можете купить подарочный набор Hot Mommy позвонив по телефону

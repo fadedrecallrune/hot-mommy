@@ -27,7 +27,7 @@ const About = ({ items }) => {
       </Fade>
       <div className="infoCard">
         {items.map(item => (
-          <Fade key={item.id} bottom delay={100}>
+          // <Fade key={item.id} bottom delay={100}>
             <div key={item.id} className="card">
               <div className="card__side flex-col card__side--front">
                 <img src={item.pic} alt="" className="card__image" />
@@ -47,7 +47,7 @@ const About = ({ items }) => {
                 </div>
               </div>
             </div>
-          </Fade>
+          // </Fade>
         ))}
       </div>
     </section>
