@@ -19,7 +19,7 @@
 }
 
 .heading-secondary {
-  display: flex;
+  display: inline-block;
   justify-content: center;
   font-size: 4rem;
   text-transform: uppercase;
@@ -35,10 +35,10 @@
   .heading-secondary {
     font-size: 2.8rem;
     margin-top: -4rem;
-    background-image: none;
-    background-clip: none;
-    -webkit-background-clip: none;
-    color: black;
+    /* background-image: none; */
+    /* background-clip: none; */
+    /* -webkit-background-clip: none; */
+    /* color: black; */
   }
 }
 
