@@ -187,11 +187,16 @@
   margin-right: 5rem;
   text-decoration: none;
 }
+@media(max-width:900px){
+  .social-icon {
+    margin-top: 3.8rem;
+  }
+}
 
 @media (max-width: 600px) {
   .social-icon {
     font-size: 1.8rem;
-    margin-top: 4.5rem;
+    margin-top: 3.8rem;
     margin-right: 2rem;
   }
 }

@@ -25,7 +25,7 @@ position: relative;
 /* transform: skewY(5deg) */
 }
 .love-heading {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     font-size: 4rem;
     text-transform: uppercase;
@@ -44,9 +44,9 @@ position: relative;
         font-size: 2.66rem;
     margin-top: 5rem;
     margin-left: -1rem;
-    background-image: none;
-    background-clip: none;
-  -webkit-background-clip: none;
+    /* background-image: none; */
+    /* background-clip: none; */
+  /* -webkit-background-clip: none; */
   color: black;
     }
 }
