@@ -20,6 +20,7 @@
 
 .heading-secondary {
   display: inline-block;
+  text-align: center;
   justify-content: center;
   font-size: 4rem;
   text-transform: uppercase;
@@ -66,10 +67,10 @@
   margin-left: 17.5rem;
 }
 
-@media(max-width:900px){
+@media(max-width:1024px){
   .about-info-text{
     width: 100%;
-    margin-left: 0rem;
+    margin-left: 2rem;
     font-size: 1.5rem;
   }
 }

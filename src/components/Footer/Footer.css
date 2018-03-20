@@ -82,6 +82,13 @@
     margin: 2.2rem;
   }
 }
+@media(max-width:1024px){
+  .contact-logo {
+    width: 52%;
+    margin-top: -6rem;
+    margin-left: -5rem;
+  }
+}
 
 @media(max-width:900px){
   .contact-logo {
