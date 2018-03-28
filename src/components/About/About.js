@@ -33,7 +33,7 @@ const About = ({ items }) => {
                 <img src={item.pic} alt="" className="card__image" />
                 <div className="flex-col card-details">
                   <div className="card-name">
-                    <span>{item.name}</span>
+                    <h3>{item.name}</h3>
                   </div>
                   <div className="card-price">
                     <span>{item.price}</span>
@@ -42,6 +42,7 @@ const About = ({ items }) => {
               </div>
               <div className="card__side flex-col card__side--back">
                 <div className="card-intro">{item.disc}</div>
+                
                 <div className="card-info">
                   <span>{item.contains}</span>
                 </div>

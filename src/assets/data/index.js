@@ -1,29 +1,35 @@
-import bo1 from '../card-img/bo1.jpg'
 
 import vanil from '../card-img/2vanil.jpg';
 import zefir from '../card-img/4_zefir.jpg'
 import sweet from '../card-img/6_sweet.jpg'
 import style from '../card-img/8_Style.jpg'
-import bisquit from '../card-img/10_bisquit.jpg'
+import bisquit from '../card-img/10bisquit.jpg'
+
 import kashemir from '../card-img/11_kashemir.jpg'
-import pinkrabts from '../card-img/12_pink_rabts.jpg'
+import pinkrabts from '../card-img/12pinkrab.jpg'
+
 import ezhevika from '../card-img/13_ezhevika.jpg'
 import pljush from '../card-img/14_pljush.jpg'
 import pushok from '../card-img/15_pushok.jpg'
 import dushka from '../card-img/16_dushka.jpg'
-import kashemirzaiki from '../card-img/9_kashemir_zaiki.jpg'
 import sugar from '../card-img/1_sugar.jpg'
-import grey from '../card-img/3_grey.jpg'
+import grey from '../card-img/3greyb.jpg'
+
 import sochnaya from '../card-img/7_sochnaya.jpg'
-import korobka from '../card-img/5_korobka.jpg'
+import korobka from '../card-img/korobka.jpg'
+import kashemirzaiki from '../card-img/kashemirzaiki.jpg'
 // import termos from '../card-img/17_termos.jpg'
+import greybox from '../card-img/greybox.jpg'
+import redbox from '../card-img/redbox.jpg'
+import bo1 from '../card-img/bottles.jpg'
+
 
 
 
 const items = [
   {
     id: 1,
-    pic: sugar,
+    pic: vanil,
     name: "Сахарная пудра",
     price: "750  грн",
     disc:
@@ -34,7 +40,7 @@ const items = [
   },
   {
     id: 2,
-    pic: vanil,
+    pic: sugar,
     name: "Ванильное пралине",
     price: "750 грн",
     disc:
@@ -197,6 +203,22 @@ const items = [
     contains: `Материал: двухслойная нержавеющая сталь. 
     Объём: 0,5 л.`
   },
+  {
+    id: 18,
+    pic: greybox,
+    name: 'Серый Коктейль',
+    price: '950 грн',
+    disc:"Прекрасный набор для прогулок для молодых мам и их малышей. Ребенку будет уютно и тепло под пледом, пока его замечательная мама будет наслаждаться теплым напитком из термобутылки.",
+    contains:'Серый термос из нержавеющей стали, серый хлопковый плед, серая коробка'
+  },
+  {
+    id: 19,
+    pic: redbox,
+    name: 'Каркаде',
+    price: '950 грн',
+    disc:"Шикарный набор для мамы и малыша из белого детского пледа и красного термоса с легкостью подчеркнет индивидуальность стиля. ",
+    contains:'Красный термос из нержавеющей стали, белый хлопковый плед, красная коробка'
+  }
 ];
 
 export default items;

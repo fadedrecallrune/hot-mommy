@@ -253,11 +253,11 @@
 }
 
 .card__side--back .card-intro {
-  font-size: 1.2rem;
-  margin: 0 2rem 5rem 2rem;
+  font-size: 1.35rem;
+  margin: 0 0rem 5rem 2rem;
 }
 .card__side--back .card-info {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   margin: 2rem;
   font-weight: 400;
 }
